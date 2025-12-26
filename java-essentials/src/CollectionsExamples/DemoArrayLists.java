@@ -41,7 +41,7 @@ public class DemoArrayLists {
 
         int max = Collections.max(list);
 
-        System.out.println("Max value: " + max)
+        System.out.println("Max value: " + max);
 
     }
 }
