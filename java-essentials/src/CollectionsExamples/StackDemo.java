@@ -16,7 +16,7 @@ public class StackDemo {
     public static void main(String[] args){
         int n = 10;
         int sum = add(n);
-        System.out.println(sum);
+        System.out.println(sum);  //55
 
         //Declaration
         Stack<Integer> stack1 = new Stack<>();
@@ -34,18 +34,18 @@ public class StackDemo {
         System.out.println("-----");
         System.out.println(stack1); //[10,20,30,40]
         System.out.println("-----");
-        System.out.println(stack1.peek());
+        System.out.println(stack1.peek());//40
         System.out.println("-----");
-        System.out.println(stack1);
+        System.out.println(stack1);//[10,20,30,40]
         stack1.remove(1);
         System.out.println("-----");
-        System.out.println(stack1);
+        System.out.println(stack1); //[10,30,40]
         System.out.println("-----");
         stack1.push(20);
-        System.out.println(stack1);
+        System.out.println(stack1);//[10,30,40,20]
         System.out.println("-----");
-        System.out.println(stack1.search(20));
+        System.out.println(stack1.search(20));//1 because 20 exists in list if not it will print -1
         System.out.println("-----");
-        System.out.println(stack1);
+        System.out.println(stack1);//[10,30,40,20]
     }
 }
