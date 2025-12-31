@@ -28,7 +28,6 @@ public class BubbleSortingDemo {
                 System.out.print(num + " ");//Variable array
             }
             System.out.println();
-
         }
 
         System.out.println();
